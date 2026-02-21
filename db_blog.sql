@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 21, 2026 at 08:40 AM
+-- Generation Time: Feb 21, 2026 at 07:10 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -158,9 +158,9 @@ CREATE TABLE `tbl_slider` (
 --
 
 INSERT INTO `tbl_slider` (`id`, `title`, `image`) VALUES
-(2, 'Second Slider Title', 'upload/slider/19f4b34f29.jpg'),
-(3, 'Third Slider Title', 'upload/slider/d6e6685caa.jpg'),
-(5, 'Forth Silder Title', 'upload/slider/b62356823f.jpg');
+(9, 'FirstSlider', 'upload/slider/f6dff99d5e.jpg'),
+(10, 'SceondSlider', 'upload/slider/41d19dfa09.jpg'),
+(11, 'ThirdSlider', 'upload/slider/0d2a468a0a.jpg');
 
 -- --------------------------------------------------------
 
@@ -222,9 +222,7 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id`, `name`, `username`, `password`, `email`, `details`, `role`) VALUES
-(1, 'RezoanNafi', 'admin', '202cb962ac59075b964b07152d234b70', 'rezoannafibd@gmail.com', '<p>Name<strong data-start=\"328\" data-end=\"337\">:</strong> Reazoan Nafi<br data-start=\"350\" data-end=\"353\" /> Role<strong data-start=\"353\" data-end=\"362\">:</strong> System Administrator<br data-start=\"383\" data-end=\"386\" /> Access Level:Full Administrative', 0),
-(6, '', 'Rana', '827ccb0eea8a706c4c34a16891f84e7b', 'rana@gmail.com', '', 1),
-(7, '', 'Sourove', '827ccb0eea8a706c4c34a16891f84e7b', 'sourove@gmail.com', '', 2);
+(1, 'RezoanNafi', 'admin', '123', 'rezoannafibd@gmail.com', '<p>Name<strong data-start=\"328\" data-end=\"337\">:</strong> Reazoan Nafi<br data-start=\"350\" data-end=\"353\" /> Role<strong data-start=\"353\" data-end=\"362\">:</strong> System Administrator<br data-start=\"383\" data-end=\"386\" /> Access Level:Full Administrative', 0);
 
 -- --------------------------------------------------------
 
@@ -348,7 +346,7 @@ ALTER TABLE `tbl_post`
 -- AUTO_INCREMENT for table `tbl_slider`
 --
 ALTER TABLE `tbl_slider`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `tbl_social`
@@ -366,7 +364,7 @@ ALTER TABLE `tbl_theme`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `title_slogan`
